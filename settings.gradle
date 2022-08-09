@@ -1,0 +1,12 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://ggdevlee-maven.pkg.coding.net/repository/MyWorld/leeframework' }
+        maven { url 'https://ggdevlee-maven.pkg.coding.net/repository/MyWorld/googlepay' }
+    }
+}
+rootProject.name = "GooglePay"
+include ':googlepay'
+include ':demo'
